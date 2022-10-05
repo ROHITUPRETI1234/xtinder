@@ -1,0 +1,194 @@
+/* rohit-coding */
+body {
+    font-family: "Montserrat-light";
+    text-align: center;
+}
+
+.colour-coloured {
+
+    background-color: #38CFFF;
+    color: #fff;
+}
+
+.colour-white {
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading1 {
+
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 2rem;
+
+}
+
+p {
+    font-size: 1.1rem;
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* Navbar-Bar*/
+.navbar {
+    padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+/* Download Button */
+.Download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title-Section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Title image */
+.title-image {
+    width: 20%;
+    height: 100%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%
+        /* transform: scaleY(1); */
+        /* transform: skewY(10deg); */
+}
+
+/* Feature-box */
+#features {
+    position: relative;
+    /* z-index:1; */
+}
+
+.features-text {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #7BCFFF;
+   
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #38CFFF;
+}
+
+/* testimonials-section */
+#testimonials {
+
+    background-color: #7BCFFF;
+}
+
+/* #testimonials:hover
+   {
+    background-color:#ff4c68;
+   } */
+.testimonials-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #7BCFFF;
+    padding-bottom: 3%;
+}
+
+/* #press:hover
+{
+    background-color: #ff4c68;
+} */
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+    padding: 100px;
+
+}
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+
+
+}
+/*Media section how title going to look in mobile size*/
+@media (MAX-WIDTH:990PX) {
+    #title .container-fluid {
+     text-align:center;
+    }
+
+    .title-image {
+        width: 50%;
+        position: static;
+        transform: rotate(0);
+        text-align: center;
+    }
+}
+
+/* Call to Action*/
+
+.cta-heading {
+
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+/* footer */
+.social-icon {
+    margin: 20px 20px;
+    color: black;
+
+}
+
+.social-icon:hover {
+    color: #7BCFFF;
+}
